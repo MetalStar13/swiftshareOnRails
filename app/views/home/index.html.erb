@@ -1,0 +1,8 @@
+<%= stylesheet_link_tag "main.css" %>
+<h1>File Upload</h1>
+<%= form_tag({action: :upload},multipart: true) do %>
+<p><label for="upload_file">Select File</label> : 
+<%= file_field(:upload, :datafile, :multiple => true) %>
+</p>
+<%= submit_tag "Upload" %>
+<% end %>
