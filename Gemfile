@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 
+gem 'whenever', :require => false
 gem 'devise'
 gem 'paperclip'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
