@@ -1,6 +1,6 @@
 class DataFile < ActiveRecord::Base
   def self.save(fileUpload)
-	require 'digest/sha1'
+	require 'digest'
 	require 'uri'
 
 =begin	
@@ -13,12 +13,13 @@ class DataFile < ActiveRecord::Base
 =end
 	# puts "Enter DataFile\n"
 	hash = Digest::MD5.hexdigest(fileUpload.join)
+	time = Time.now.to_i
 	#MD5 32, SHA1 40, SHA256 64
 	
-	directory = "/home/pi/RailsServer/swiftshareOnRails/Store/" + hash
+	directory = "/home/kishan/ruby-web/swiftshareOnRails/Store/" + hash
 	
 	puts "\n\n"
-	puts hash, hash.length, directory
+	puts hash, hash.length, directory, time
 	puts "\n\n"
 	
 	Dir.mkdir directory

@@ -8910,3 +8910,344 @@ Processing by HomeController#upload as HTML
   Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x2352ba0 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-2482-uis6sc.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x2352b28 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-2482-12wluwy.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
   Rendered text template (0.2ms)
 Completed 200 OK in 51ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 08:44:49 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x00000002247d98 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-13c89oh.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x00000002247c58 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-11yj013.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms)
+
+Errno::ENOENT (No such file or directory @ dir_s_mkdir - /home/pi/RailsServer/swiftshareOnRails/Store/4d65115b8f52d4946d234c905033517b):
+  app/models/data_file.rb:24:in `mkdir'
+  app/models/data_file.rb:24:in `save'
+  app/controllers/home_controller.rb:9:in `upload'
+
+
+  Rendered /home/kishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (21.0ms)
+  Rendered /home/kishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (25.5ms)
+  Rendered /home/kishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/kishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.2ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 08:44:51 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x00000003ae4ec8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-r5674x.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x00000003ae4e50 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1gt00qa.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+Errno::ENOENT (No such file or directory @ dir_s_mkdir - /home/pi/RailsServer/swiftshareOnRails/Store/e4faa709aa5272c22d8046068c17072d):
+  app/models/data_file.rb:24:in `mkdir'
+  app/models/data_file.rb:24:in `save'
+  app/controllers/home_controller.rb:9:in `upload'
+
+
+  Rendered /home/kishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /home/kishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /home/kishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/kishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.2ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 08:46:01 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x000000034d74b8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1psehpb.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x000000034d73c8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1chauk2.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 18ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-09 11:27:51 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (143.7ms)
+Completed 200 OK in 252ms (Views: 252.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-09 11:27:52 +0530
+
+
+Started GET "/assets/main.self-eb5e0246c57b1297e8f069072d58ce2d5a4217952df3888efe302a703e4182f3.css?body=1" for 127.0.0.1 at 2015-11-09 11:27:52 +0530
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-09 11:27:52 +0530
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-09 11:27:52 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-11-09 11:27:52 +0530
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-09 11:27:52 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-09 11:27:52 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-11-09 11:27:52 +0530
+
+
+Started POST "/home/upload" for 127.0.0.1 at 2015-11-09 11:27:55 +0530
+Processing by HomeController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yZL48ZwoIUkosMiaHzW8DhGbmdkcgjIC9dJbLL436d4PWAhlbdFq3AzSlNKauo2viWfnyWn4m7ySSugQQnlCZw==", "upload"=>{"datafile"=>[#<ActionDispatch::Http::UploadedFile:0x000000022bd980 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1i9asx5.txt>, @original_filename="SDK Readme.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"upload[datafile][]\"; filename=\"SDK Readme.txt\"\r\nContent-Type: text/plain\r\n">]}, "commit"=>"Upload"}
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `join' for nil:NilClass):
+  app/models/data_file.rb:15:in `save'
+  app/controllers/home_controller.rb:9:in `upload'
+
+
+  Rendered /home/kishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /home/kishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/kishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/kishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.4ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x00000002437bd0 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x00000002437900 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x000000024344d0 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 12:45:12 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7c400fd70 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1gbrrn2.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7c400fca8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-pzty97.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 12:45:18 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7ce030048 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1ob1eh4.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7d14b3f68 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-167hojo.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 12:45:22 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7d1b2eb90 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1yht8oj.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7d1b2eb18 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1hzwxa.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 12:45:24 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7d1b5ca90 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-143veur.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7d1b5ca18 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-ys13q4.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 12:45:25 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7d0e0e168 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1jrjna8.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7d0e0e0f0 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-utboev.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 12:45:25 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7cdf4f3b8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-i8rqlg.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7cdf4f340 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-105g7lj.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 12:45:27 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7cd6f4150 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1e3s4oi.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7cd6f40d8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1tsh8aj.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 12:45:28 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7cc7e93b8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1hp96m8.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7cc7e9340 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-11m6qrh.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 12:45:30 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7d1676ee0 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-ks4i0r.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7d1676e68 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1mdolxz.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 12:45:31 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7d32e72a0 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1w4jhni.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7d32e7228 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-u1f8zp.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 12:45:32 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7d38fb178 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-c24aue.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7d38fb100 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-e5o5v9.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 13:00:45 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7cdf32880 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-2aaril.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7cdf32808 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-k4dnz7.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 13:00:55 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7ce053db8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1kzeo11.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7ce053d40 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1tyns62.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 13:01:00 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7cd4c3a98 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-yfexpd.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7cd4c39a8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1qu3g.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 13:01:07 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7ccb0b320 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1obsvqp.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7ccb0b1b8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-13zph5c.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 13:05:18 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x000000032f2828 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-dr323j.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x000000032f2738 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1s6qwwl.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 13:05:29 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x000000010582b8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1qsurul.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x00000001058060 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1c5t6f6.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 13:05:35 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x000000033b2920 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-w5aqzx.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x000000033b2740 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-17ub1ed.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 13:08:07 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7cca72e18 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-lsay42.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7cca72d28 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1os9ms8.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 6ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 13:08:19 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7cd3dcf30 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-knlc4l.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7cd3dce40 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-iowrda.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.1ms)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 13:08:20 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7ce034e90 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-14g97ks.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7ce034e18 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-iyvmcy.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 13:08:20 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7cdbc1570 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1dj1x18.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7cdbc14f8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-of6w30.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 13:08:20 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7ce038838 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-mdr83f.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7ce0387c0 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1kvk2yx.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 13:08:24 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7d1af37e8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1qaon04.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7d1af3770 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-gqj8r9.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 13:08:27 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7cdb14370 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-wn9net.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7cdb142f8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-ptqi8p.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 13:21:17 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x007fa7d38ebd68 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1xluabf.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fa7d38ebcf0 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-4867-1q7tp20.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 14ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 14:33:30 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x0000000254f888 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-10506-eykkpt.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x0000000254f4a0 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-10506-1ksj9ed.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 17ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 14:33:31 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x000000032cccb8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-10506-fkfgf8.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x000000032cc510 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-10506-7wz15d.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 14:33:48 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x00000004183298 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-10506-ckenfy.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x000000041831f8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-10506-17kimwo.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 14:33:53 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x000000031a33f0 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-10506-n1eqh.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x000000031a32d8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-10506-1453565.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.43.1 at 2015-11-09 14:43:20 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x000000041a4740 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-10506-qi0gbz.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x000000041a46c8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-10506-yplk42.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.0ms)
