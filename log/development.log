@@ -9251,3 +9251,495 @@ Processing by HomeController#upload as HTML
   Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x000000041a4740 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-10506-qi0gbz.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x000000041a46c8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-10506-yplk42.apk>, @original_filename="TaskManager.apk", @content_type="application/vnd.android.package-archive", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"TaskManager.apk\"\r\nContent-Type: application/vnd.android.package-archive\r\nContent-Transfer-Encoding: binary\r\n">]}
   Rendered text template (0.0ms)
 Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.1.3 at 2015-11-09 21:46:11 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x3139ae8 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-1282-q8vo6f.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x3139aa0 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-1282-b5a09y.pdf>, @original_filename="Thousand For MegaDeth.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"Thousand For MegaDeth.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.7ms)
+Completed 200 OK in 272ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.1.3 at 2015-11-09 21:51:32 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x2fa99c0 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-1282-17isaxt.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x2fa9930 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-1282-12lqecs.pdf>, @original_filename="Thousand For MegaDeth.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"Thousand For MegaDeth.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 34ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.1.3 at 2015-11-09 21:53:58 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x2e7b458 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-1282-xm3zpu.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x2e7b410 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-1282-1fg6m3r.pdf>, @original_filename="Thousand For MegaDeth.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"Thousand For MegaDeth.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.3ms)
+Completed 200 OK in 44ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.1.3 at 2015-11-09 21:54:09 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x2d33870 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-1282-rhfq1v.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x2d33828 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-1282-ykrara.pdf>, @original_filename="Thousand For MegaDeth.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"Thousand For MegaDeth.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 32ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.1.3 at 2015-11-09 21:54:32 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x2c2ca88 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-1282-bn479b.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x2c2c938 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-1282-1fjx4ou.pdf>, @original_filename="Thousand For MegaDeth.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"Thousand For MegaDeth.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 36ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.1.3 at 2015-11-09 21:59:35 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x255a4d0 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-1282-t1veb0.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x255a320 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-1282-138xeqf.pdf>, @original_filename="Thousand For MegaDeth.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"Thousand For MegaDeth.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 33ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.1.3 at 2015-11-09 22:02:32 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x22726e0 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-1282-5evsh8.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x2272218 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-1282-1yvmbfk.pdf>, @original_filename="Thousand For MegaDeth.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"Thousand For MegaDeth.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 33ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.1.3 at 2015-11-09 22:02:40 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x126f4e0 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-1282-1e275dd.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x126f240 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-1282-qqr595.pdf>, @original_filename="Thousand For MegaDeth.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"Thousand For MegaDeth.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 67ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:13:55 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/kishan/Downloads/1984.pdf (6.3ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+ActionController::MissingFile (Cannot read file /home/kishan/Downloads/1984.pdf):
+  app/controllers/home_controller.rb:4:in `download'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (89.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (58.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (359.9ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:13:57 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/kishan/Downloads/1984.pdf (9.6ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+ActionController::MissingFile (Cannot read file /home/kishan/Downloads/1984.pdf):
+  app/controllers/home_controller.rb:4:in `download'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (82.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (43.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (294.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:15:05 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:15:05 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.1.3 at 2015-11-09 22:17:18 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x1283dc0 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-1282-eyr503.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, #<ActionDispatch::Http::UploadedFile:0x1283d00 @tempfile=#<Tempfile:/tmp/RackMultipart20151109-1282-1xkcnal.pdf>, @original_filename="Thousand For MegaDeth.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"Thousand For MegaDeth.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 57ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:23:23 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `path' for "/home/pi/Documents/Led.pdf":String):
+  app/controllers/home_controller.rb:6:in `download'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (76.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (39.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (13.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (284.7ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:23:27 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `path' for "/home/pi/Documents/Led.pdf":String):
+  app/controllers/home_controller.rb:6:in `download'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (82.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (48.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (311.2ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:23:38 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `x' for #<HomeController:0x2c30b50>):
+  app/controllers/home_controller.rb:6:in `download'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (79.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (42.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (13.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (339.5ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:23:40 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Completed 500 Internal Server Error in 64ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `x' for #<HomeController:0x2e04ad8>):
+  app/controllers/home_controller.rb:6:in `download'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (74.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (38.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (323.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:23:49 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `x_send_file' for #<HomeController:0x2f969a0>):
+  app/controllers/home_controller.rb:6:in `download'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (76.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (40.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (355.4ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:23:51 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Completed 500 Internal Server Error in 64ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `x_send_file' for #<HomeController:0x30c36c0>):
+  app/controllers/home_controller.rb:6:in `download'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (75.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (42.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (18.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (334.6ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:23:57 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `x_sendfile' for #<HomeController:0x3213de0>):
+  app/controllers/home_controller.rb:6:in `download'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (73.9ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (40.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (328.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:23:59 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Completed 500 Internal Server Error in 65ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `x_sendfile' for #<HomeController:0x1928a48>):
+  app/controllers/home_controller.rb:6:in `download'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (78.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (40.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (337.8ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:24:08 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:24:08 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.8ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:24:14 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:24:14 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.7ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:24:39 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:24:39 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:25:22 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:25:25 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:26:53 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:26:53 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:29:03 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Lollipop.jpg (0.7ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:29:04 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Lollipop.jpg (0.8ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:31:38 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Lollipop.jpg (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:31:39 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Lollipop.jpg (0.7ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:44:31 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Lollipop.jpg (0.7ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:44:31 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Lollipop.jpg (0.7ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:54:02 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Lollipop.jpg (0.7ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:54:02 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Lollipop.jpg (0.7ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:55:33 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.8ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:55:34 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.7ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:56:14 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.7ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:56:15 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.7ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:56:20 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.7ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:56:20 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.7ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:57:06 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.7ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 22:57:07 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.9ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 23:00:48 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/pi/RailsServer/swiftshareOnRails/app/controllers/home_controller.rb:9: syntax error, unexpected tIVAR, expecting keyword_do or '{' or '('):
+  app/controllers/home_controller.rb:9: syntax error, unexpected tIVAR, expecting keyword_do or '{' or '('
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (66.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (35.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (271.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 23:01:20 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/pi/RailsServer/swiftshareOnRails/app/controllers/home_controller.rb:9: syntax error, unexpected tLABEL
+    X-Sendfile: @file_loc
+               ^):
+  app/controllers/home_controller.rb:9: syntax error, unexpected tLABEL
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (67.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (37.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (16.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (275.7ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 23:02:16 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `sendfile' for #<HomeController:0x2f9e218>):
+  app/controllers/home_controller.rb:9:in `download'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (76.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (38.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (16.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (325.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 23:02:30 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.7ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 23:02:31 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.8ms)
+Completed 200 OK in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 23:02:43 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.7ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 192.168.1.3 at 2015-11-09 23:02:44 +0530
+Cannot render console from 192.168.1.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+Sent file /home/pi/Documents/Led.pdf (0.7ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)

@@ -16,7 +16,7 @@ class DataFile < ActiveRecord::Base
 	time = Time.now.to_i
 	#MD5 32, SHA1 40, SHA256 64
 	
-	directory = "/home/kishan/ruby-web/swiftshareOnRails/Store/" + hash
+	directory = "/home/pi/RailsServer/swiftshareOnRails/Store/" + hash
 	
 	puts "\n\n"
 	puts hash, hash.length, directory, time
@@ -29,6 +29,8 @@ class DataFile < ActiveRecord::Base
 		path = File.join(directory, name)
 		File.open(path, "wb") { |file| file.write(f.read) }
 	end	
+	
+	return hash
 	
   end
 end
