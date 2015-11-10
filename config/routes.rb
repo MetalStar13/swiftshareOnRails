@@ -2,9 +2,11 @@ Rails.application.routes.draw do
 	get 'home/index'
 	
 	#get 'file' => 'file_management#index'
-	get 'download' => 'home#download'
-	post 'home/upload' => 'home#upload'
-	post '/upload' => 'home#upload'
+	get 'download' => 'home#download', as: :controller_download
+	#post 'download' => 'home#download', as: :controller_download
+	get 'fileCount' => 'home#numOfFiles'
+	#post 'home/upload' => 'home#upload'
+	post 'upload' => 'home#upload'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -18,9 +18,9 @@ class DataFile < ActiveRecord::Base
 	
 	directory = "/home/pi/RailsServer/swiftshareOnRails/Store/" + hash
 	
-	puts "\n\n"
-	puts hash, hash.length, directory, time
-	puts "\n\n"
+	#puts "\n\n"
+	#puts hash, hash.length, directory, time
+	#puts "\n\n"
 	
 	Dir.mkdir directory
 	
