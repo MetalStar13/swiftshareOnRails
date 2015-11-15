@@ -17976,3 +17976,2076 @@ Processing by HomeController#upload as HTML
   Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x1b68b68 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-4393-l81dlz.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\n">], "hash"=>"5c6143a5472a20aa66960d8562206b07"}
   Rendered text template (0.2ms)
 Completed 200 OK in 46ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:35:14 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 80ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=59d8f5c6753dcc6cbf6a35f4629f97ee" for 192.168.1.2 at 2015-11-15 16:35:17 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x3364db8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13346-rl4bsh.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">], "hash"=>"59d8f5c6753dcc6cbf6a35f4629f97ee"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 40ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=59d8f5c6753dcc6cbf6a35f4629f97ee" for 192.168.1.2 at 2015-11-15 16:35:18 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x307c7a0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13346-cy3kvo.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">], "hash"=>"59d8f5c6753dcc6cbf6a35f4629f97ee"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 40ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=59d8f5c6753dcc6cbf6a35f4629f97ee" for 192.168.1.2 at 2015-11-15 16:35:18 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x2401b18 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13346-yoxaxi.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\n">], "hash"=>"59d8f5c6753dcc6cbf6a35f4629f97ee"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 41ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=59d8f5c6753dcc6cbf6a35f4629f97ee" for 192.168.1.2 at 2015-11-15 16:35:21 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x396b928 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13346-1xkthib.png>, @original_filename="Earth.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"Earth.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n">], "hash"=>"59d8f5c6753dcc6cbf6a35f4629f97ee"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 61ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:39:55 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 85ms (Views: 81.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=59d8f5c6753dcc6cbf6a35f4629f97ee" for 192.168.1.2 at 2015-11-15 16:39:58 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x402fa38 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1kdpu3x.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"59d8f5c6753dcc6cbf6a35f4629f97ee"}
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for #<ActionDispatch::Http::UploadedFile:0x402fa38>):
+  app/models/data_file.rb:15:in `save'
+  app/controllers/home_controller.rb:57:in `upload'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (75.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (40.9ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (171.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (472.3ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:40:19 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+Errno::EEXIST (File exists @ dir_s_mkdir - /home/pi/RailsServer/swiftshareOnRails/Store/59d8f5c6753dcc6cbf6a35f4629f97ee):
+  app/controllers/home_controller.rb:22:in `mkdir'
+  app/controllers/home_controller.rb:22:in `generateHash'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (75.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (37.9ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (285.1ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:40:37 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+Errno::EEXIST (File exists @ dir_s_mkdir - /home/pi/RailsServer/swiftshareOnRails/Store/59d8f5c6753dcc6cbf6a35f4629f97ee):
+  app/controllers/home_controller.rb:22:in `mkdir'
+  app/controllers/home_controller.rb:22:in `generateHash'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (104.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (40.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (313.6ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:41:16 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 24ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=59d8f5c6753dcc6cbf6a35f4629f97ee" for 192.168.1.2 at 2015-11-15 16:41:17 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x4394df0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1w172ty.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"59d8f5c6753dcc6cbf6a35f4629f97ee"}
+  Rendered text template (0.3ms)
+Completed 200 OK in 42ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=59d8f5c6753dcc6cbf6a35f4629f97ee" for 192.168.1.2 at 2015-11-15 16:41:18 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x41bf1e8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-5wgxzm.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"59d8f5c6753dcc6cbf6a35f4629f97ee"}
+  Rendered text template (0.3ms)
+Completed 200 OK in 40ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=59d8f5c6753dcc6cbf6a35f4629f97ee" for 192.168.1.2 at 2015-11-15 16:41:18 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x3f1e840 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1s6e9p1.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"59d8f5c6753dcc6cbf6a35f4629f97ee"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 46ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=59d8f5c6753dcc6cbf6a35f4629f97ee" for 192.168.1.2 at 2015-11-15 16:41:21 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x32c0340 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1uv8ugc.png>, @original_filename="Earth.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Earth.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"59d8f5c6753dcc6cbf6a35f4629f97ee"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 61ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:42:15 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+Errno::EEXIST (File exists @ dir_s_mkdir - /home/pi/RailsServer/swiftshareOnRails/Store/59d8f5c6753dcc6cbf6a35f4629f97ee):
+  app/controllers/home_controller.rb:22:in `mkdir'
+  app/controllers/home_controller.rb:22:in `generateHash'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (77.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (39.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (18.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (286.3ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:45:38 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 29ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=59d8f5c6753dcc6cbf6a35f4629f97ee" for 192.168.1.2 at 2015-11-15 16:45:38 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x278b788 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-91edc0.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"59d8f5c6753dcc6cbf6a35f4629f97ee"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 39ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=59d8f5c6753dcc6cbf6a35f4629f97ee" for 192.168.1.2 at 2015-11-15 16:45:39 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x466e630 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1a3mp6i.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"59d8f5c6753dcc6cbf6a35f4629f97ee"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 38ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=59d8f5c6753dcc6cbf6a35f4629f97ee" for 192.168.1.2 at 2015-11-15 16:45:40 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x450b760 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1i626zi.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"59d8f5c6753dcc6cbf6a35f4629f97ee"}
+  Rendered text template (0.8ms)
+Completed 200 OK in 47ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=59d8f5c6753dcc6cbf6a35f4629f97ee" for 192.168.1.2 at 2015-11-15 16:45:43 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x435ce88 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-xvpzsg.png>, @original_filename="Earth.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Earth.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"59d8f5c6753dcc6cbf6a35f4629f97ee"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 61ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:46:19 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+Errno::EEXIST (File exists @ dir_s_mkdir - /home/pi/RailsServer/swiftshareOnRails/Store/59d8f5c6753dcc6cbf6a35f4629f97ee):
+  app/controllers/home_controller.rb:23:in `mkdir'
+  app/controllers/home_controller.rb:23:in `generateHash'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (78.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (43.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (17.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (291.5ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:47:16 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+TypeError (no implicit conversion of Array into String):
+  app/controllers/home_controller.rb:20:in `digest'
+  app/controllers/home_controller.rb:20:in `hexdigest'
+  app/controllers/home_controller.rb:20:in `generateHash'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (75.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (39.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (287.3ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:47:35 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+TypeError (no implicit conversion of Array into String):
+  app/controllers/home_controller.rb:20:in `digest'
+  app/controllers/home_controller.rb:20:in `hexdigest'
+  app/controllers/home_controller.rb:20:in `generateHash'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (85.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (41.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (17.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (322.9ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:47:45 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 32ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=cd2dcb908d8f7826fb6c33c9d59b9062" for 192.168.1.2 at 2015-11-15 16:47:45 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x3273d68 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1s5xch1.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"cd2dcb908d8f7826fb6c33c9d59b9062"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 42ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=cd2dcb908d8f7826fb6c33c9d59b9062" for 192.168.1.2 at 2015-11-15 16:47:46 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x2844588 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-lbgbff.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"cd2dcb908d8f7826fb6c33c9d59b9062"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 57ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=cd2dcb908d8f7826fb6c33c9d59b9062" for 192.168.1.2 at 2015-11-15 16:47:47 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x3e73b40 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1ao2s7s.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"cd2dcb908d8f7826fb6c33c9d59b9062"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 50ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=cd2dcb908d8f7826fb6c33c9d59b9062" for 192.168.1.2 at 2015-11-15 16:47:49 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x43cafe8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-19gbr2x.png>, @original_filename="Earth.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Earth.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"cd2dcb908d8f7826fb6c33c9d59b9062"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 65ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:47:57 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+Errno::EEXIST (File exists @ dir_s_mkdir - /home/pi/RailsServer/swiftshareOnRails/Store/cd2dcb908d8f7826fb6c33c9d59b9062):
+  app/controllers/home_controller.rb:23:in `mkdir'
+  app/controllers/home_controller.rb:23:in `generateHash'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (75.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (38.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (16.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (284.3ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:49:44 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+TypeError (no implicit conversion of Bignum into String):
+  app/controllers/home_controller.rb:20:in `+'
+  app/controllers/home_controller.rb:20:in `generateHash'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (74.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (46.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (288.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:50:06 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 30ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=28d35e0b8f9a869d07193193ac7f7d60" for 192.168.1.2 at 2015-11-15 16:50:07 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x2fa0978 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-111dgms.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"28d35e0b8f9a869d07193193ac7f7d60"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 38ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=28d35e0b8f9a869d07193193ac7f7d60" for 192.168.1.2 at 2015-11-15 16:50:08 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x46f4298 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-wafc2s.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"28d35e0b8f9a869d07193193ac7f7d60"}
+  Rendered text template (0.4ms)
+Completed 200 OK in 38ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=28d35e0b8f9a869d07193193ac7f7d60" for 192.168.1.2 at 2015-11-15 16:50:09 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x4598148 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1jtobb6.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"28d35e0b8f9a869d07193193ac7f7d60"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 37ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=28d35e0b8f9a869d07193193ac7f7d60" for 192.168.1.2 at 2015-11-15 16:50:11 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x43f9290 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-iy9ws0.png>, @original_filename="Earth.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Earth.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"28d35e0b8f9a869d07193193ac7f7d60"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 62ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:50:12 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 35ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=29bcbd686c1e6625a8fd69ea0b8ea35c" for 192.168.1.2 at 2015-11-15 16:50:12 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x4059108 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-141xyti.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"29bcbd686c1e6625a8fd69ea0b8ea35c"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 40ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=29bcbd686c1e6625a8fd69ea0b8ea35c" for 192.168.1.2 at 2015-11-15 16:50:13 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x3d868d0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-6jr519.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"29bcbd686c1e6625a8fd69ea0b8ea35c"}
+  Rendered text template (0.3ms)
+Completed 200 OK in 50ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=29bcbd686c1e6625a8fd69ea0b8ea35c" for 192.168.1.2 at 2015-11-15 16:50:13 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x30cd890 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1ccy0ct.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"29bcbd686c1e6625a8fd69ea0b8ea35c"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 39ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=29bcbd686c1e6625a8fd69ea0b8ea35c" for 192.168.1.2 at 2015-11-15 16:50:16 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x44cc640 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-9z9e8a.png>, @original_filename="Earth.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Earth.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"29bcbd686c1e6625a8fd69ea0b8ea35c"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 62ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:50:16 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 30ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=67bf0fc8f05d15f91d77531364227604" for 192.168.1.2 at 2015-11-15 16:50:17 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x3383da8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-k4aud3.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"67bf0fc8f05d15f91d77531364227604"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 41ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=67bf0fc8f05d15f91d77531364227604" for 192.168.1.2 at 2015-11-15 16:50:17 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x25a4ae0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-k6vb4r.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"67bf0fc8f05d15f91d77531364227604"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 56ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=67bf0fc8f05d15f91d77531364227604" for 192.168.1.2 at 2015-11-15 16:50:18 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x3df3e60 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1f33ta.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"67bf0fc8f05d15f91d77531364227604"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 50ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=67bf0fc8f05d15f91d77531364227604" for 192.168.1.2 at 2015-11-15 16:50:21 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x4318c68 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-10tz99z.png>, @original_filename="Earth.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Earth.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"67bf0fc8f05d15f91d77531364227604"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 63ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:52:53 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 31ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=b27c422f23f826e0af635717d5d44670" for 192.168.1.2 at 2015-11-15 16:52:54 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x4649d00 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1nlw9xy.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"b27c422f23f826e0af635717d5d44670"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 38ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=b27c422f23f826e0af635717d5d44670" for 192.168.1.2 at 2015-11-15 16:52:55 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x4496d60 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-l3n1xe.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"b27c422f23f826e0af635717d5d44670"}
+  Rendered text template (0.4ms)
+Completed 200 OK in 39ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=b27c422f23f826e0af635717d5d44670" for 192.168.1.2 at 2015-11-15 16:52:55 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x43029f0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-oyio2y.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"b27c422f23f826e0af635717d5d44670"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 42ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=b27c422f23f826e0af635717d5d44670" for 192.168.1.2 at 2015-11-15 16:52:57 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x411f540 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-hf4ljr.png>, @original_filename="Earth.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Earth.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"b27c422f23f826e0af635717d5d44670"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 67ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:52:58 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 30ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=e7940e7a95fe9941d05cae5477cc478b" for 192.168.1.2 at 2015-11-15 16:52:58 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x32652c0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1bwlk3h.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"e7940e7a95fe9941d05cae5477cc478b"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 41ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=e7940e7a95fe9941d05cae5477cc478b" for 192.168.1.2 at 2015-11-15 16:52:59 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x27ccc90 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-ek1yp9.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"e7940e7a95fe9941d05cae5477cc478b"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 41ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=e7940e7a95fe9941d05cae5477cc478b" for 192.168.1.2 at 2015-11-15 16:53:00 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x466c008 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-e5g5n1.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"e7940e7a95fe9941d05cae5477cc478b"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 39ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=e7940e7a95fe9941d05cae5477cc478b" for 192.168.1.2 at 2015-11-15 16:53:02 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x44cfbf8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1smpatm.png>, @original_filename="Earth.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Earth.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"e7940e7a95fe9941d05cae5477cc478b"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 65ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:53:02 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 35ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=130456960324bdcb30beb73f3cc33cd0" for 192.168.1.2 at 2015-11-15 16:53:03 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x41be408 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1910eeo.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"130456960324bdcb30beb73f3cc33cd0"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 43ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=130456960324bdcb30beb73f3cc33cd0" for 192.168.1.2 at 2015-11-15 16:53:04 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x3f30c90 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1ffvp33.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"130456960324bdcb30beb73f3cc33cd0"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 40ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=130456960324bdcb30beb73f3cc33cd0" for 192.168.1.2 at 2015-11-15 16:53:04 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x331ec18 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-uxz7ly.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"130456960324bdcb30beb73f3cc33cd0"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 39ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=130456960324bdcb30beb73f3cc33cd0" for 192.168.1.2 at 2015-11-15 16:53:07 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x288e1a8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-abubbt.png>, @original_filename="Earth.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Earth.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"130456960324bdcb30beb73f3cc33cd0"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 64ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:53:08 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 30ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=c8730ca33f7ba949fb4dabc67a6726c8" for 192.168.1.2 at 2015-11-15 16:53:08 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x45542a0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-4ch8lx.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"c8730ca33f7ba949fb4dabc67a6726c8"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 40ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=c8730ca33f7ba949fb4dabc67a6726c8" for 192.168.1.2 at 2015-11-15 16:53:09 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x43c8b40 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1kedt1k.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"c8730ca33f7ba949fb4dabc67a6726c8"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 41ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=c8730ca33f7ba949fb4dabc67a6726c8" for 192.168.1.2 at 2015-11-15 16:53:09 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x4213830 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-q2lrjq.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"c8730ca33f7ba949fb4dabc67a6726c8"}
+  Rendered text template (0.4ms)
+Completed 200 OK in 49ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=c8730ca33f7ba949fb4dabc67a6726c8" for 192.168.1.2 at 2015-11-15 16:53:12 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x3f926d0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-48zzzs.png>, @original_filename="Earth.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Earth.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"c8730ca33f7ba949fb4dabc67a6726c8"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 62ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:53:12 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+  Rendered text template (0.3ms)
+Completed 200 OK in 40ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=a5f0d80aacc1fa54ea59066035763550" for 192.168.1.2 at 2015-11-15 16:53:13 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x30258d8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1ix3p0x.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"a5f0d80aacc1fa54ea59066035763550"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 41ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=a5f0d80aacc1fa54ea59066035763550" for 192.168.1.2 at 2015-11-15 16:53:13 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x46ee508 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1hbu4ka.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"a5f0d80aacc1fa54ea59066035763550"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 52ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=a5f0d80aacc1fa54ea59066035763550" for 192.168.1.2 at 2015-11-15 16:53:14 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x4590c60 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-n84q3y.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"a5f0d80aacc1fa54ea59066035763550"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 43ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=a5f0d80aacc1fa54ea59066035763550" for 192.168.1.2 at 2015-11-15 16:53:16 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x43ede78 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-t6am05.png>, @original_filename="Earth.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Earth.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n">, "hash"=>"a5f0d80aacc1fa54ea59066035763550"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 65ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 17:06:03 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_BLR2UDP_10_29_2015.pdf", "06_Oct.jpg", "Earth.png", "UDP2Gokarna.png", "Booker T & the M G 's - Green Onions (Original - HQ audio).mp3", "Floyd.txt", "Lol.jpg", "tmp1.txt"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 30ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=5ea0ee75c440d656e178c7f041559e79" for 192.168.1.2 at 2015-11-15 17:06:05 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x3f5b5d8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-ufkcn6.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"5ea0ee75c440d656e178c7f041559e79"}
+  Rendered text template (0.3ms)
+Completed 200 OK in 44ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=5ea0ee75c440d656e178c7f041559e79" for 192.168.1.2 at 2015-11-15 17:06:06 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x33236d0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-u5vlp7.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"5ea0ee75c440d656e178c7f041559e79"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 42ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=5ea0ee75c440d656e178c7f041559e79" for 192.168.1.2 at 2015-11-15 17:06:07 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x28f90b0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1l52p46.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"5ea0ee75c440d656e178c7f041559e79"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 40ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=5ea0ee75c440d656e178c7f041559e79" for 192.168.1.2 at 2015-11-15 17:06:09 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x466ea68 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-y647fq.png>, @original_filename="Earth.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Earth.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"5ea0ee75c440d656e178c7f041559e79"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 65ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=5ea0ee75c440d656e178c7f041559e79" for 192.168.1.2 at 2015-11-15 17:06:13 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x44ed970 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-18e367e.png>, @original_filename="UDP2Gokarna.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"UDP2Gokarna.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"5ea0ee75c440d656e178c7f041559e79"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 52ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=5ea0ee75c440d656e178c7f041559e79" for 192.168.1.2 at 2015-11-15 17:06:19 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x432fa38 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-ta3931.mp3>, @original_filename="Booker T & the M G 's - Green Onions (Original - HQ audio).mp3", @content_type="audio/mpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Booker T & the M G 's - Green Onions (Original - HQ audio).mp3\"\r\nContent-Type: audio/mpeg\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"5ea0ee75c440d656e178c7f041559e79"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 96ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=5ea0ee75c440d656e178c7f041559e79" for 192.168.1.2 at 2015-11-15 17:06:19 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x418c3b0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-9mo6cf.txt>, @original_filename="Floyd.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Floyd.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"5ea0ee75c440d656e178c7f041559e79"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 39ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=5ea0ee75c440d656e178c7f041559e79" for 192.168.1.2 at 2015-11-15 17:06:20 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x3ec8638 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-mz4s3c.jpg>, @original_filename="Lol.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Lol.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"5ea0ee75c440d656e178c7f041559e79"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 38ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=5ea0ee75c440d656e178c7f041559e79" for 192.168.1.2 at 2015-11-15 17:06:20 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x32944c8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-13888-1bv9psu.txt>, @original_filename="tmp1.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"tmp1.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"5ea0ee75c440d656e178c7f041559e79"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 47ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 20:40:11 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (4.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "06_Oct.jpg", "K S R T C_UDP2BLR_10_27_2015.pdf", "Documents From Kishan P Rao.zip", "06_Oct.jpg", "Earth.png", "Megadeth Set.png", "Led.pdf", "Code Monk.txt", "UDP2Gokarna.png", "Floyd.txt", "Booker T & the M G 's - Green Onions (Original - HQ audio).mp3", "Lol.jpg", "tmp1.txt", "pgm.txt"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 106ms (Views: 90.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=311d2aa64f6dd5ecbe1b655bff155a22" for 192.168.1.2 at 2015-11-15 20:40:13 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x37d0628 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-1c2qzei.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"311d2aa64f6dd5ecbe1b655bff155a22"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 61ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=311d2aa64f6dd5ecbe1b655bff155a22" for 192.168.1.2 at 2015-11-15 20:40:14 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x367c500 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-1os49ii.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"311d2aa64f6dd5ecbe1b655bff155a22"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 39ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=311d2aa64f6dd5ecbe1b655bff155a22" for 192.168.1.2 at 2015-11-15 20:40:15 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x34dba58 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-nz5b4y.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"311d2aa64f6dd5ecbe1b655bff155a22"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 40ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=311d2aa64f6dd5ecbe1b655bff155a22" for 192.168.1.2 at 2015-11-15 20:40:23 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x3668280 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-1vg4lxc.zip>, @original_filename="Documents From Kishan P Rao.zip", @content_type="application/zip", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Documents From Kishan P Rao.zip\"\r\nContent-Type: application/zip\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"311d2aa64f6dd5ecbe1b655bff155a22"}
+  Rendered text template (0.4ms)
+Completed 200 OK in 166ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=311d2aa64f6dd5ecbe1b655bff155a22" for 192.168.1.2 at 2015-11-15 20:40:24 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x2283888 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-v1ho5o.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"311d2aa64f6dd5ecbe1b655bff155a22"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 38ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=311d2aa64f6dd5ecbe1b655bff155a22" for 192.168.1.2 at 2015-11-15 20:40:26 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x3543d20 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-1aggv4q.png>, @original_filename="Earth.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Earth.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"311d2aa64f6dd5ecbe1b655bff155a22"}
+  Rendered text template (0.4ms)
+Completed 200 OK in 67ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=311d2aa64f6dd5ecbe1b655bff155a22" for 192.168.1.2 at 2015-11-15 20:40:27 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x2f8d3d0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-11uvx7k.png>, @original_filename="Megadeth Set.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Megadeth Set.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"311d2aa64f6dd5ecbe1b655bff155a22"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 39ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=311d2aa64f6dd5ecbe1b655bff155a22" for 192.168.1.2 at 2015-11-15 20:40:27 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x24e2698 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-nh26u9.pdf>, @original_filename="Led.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Led.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"311d2aa64f6dd5ecbe1b655bff155a22"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 36ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=311d2aa64f6dd5ecbe1b655bff155a22" for 192.168.1.2 at 2015-11-15 20:40:27 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x19a7cc0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-a2hbyl.txt>, @original_filename="Code Monk.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Code Monk.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"311d2aa64f6dd5ecbe1b655bff155a22"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 40ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=311d2aa64f6dd5ecbe1b655bff155a22" for 192.168.1.2 at 2015-11-15 20:40:29 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x2621f10 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-1kkcj5u.png>, @original_filename="UDP2Gokarna.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"UDP2Gokarna.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"311d2aa64f6dd5ecbe1b655bff155a22"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 56ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=311d2aa64f6dd5ecbe1b655bff155a22" for 192.168.1.2 at 2015-11-15 20:40:30 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x30bbc38 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-1h57rm4.txt>, @original_filename="Floyd.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Floyd.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"311d2aa64f6dd5ecbe1b655bff155a22"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 46ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=311d2aa64f6dd5ecbe1b655bff155a22" for 192.168.1.2 at 2015-11-15 20:40:35 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x366a998 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-alx9xo.mp3>, @original_filename="Booker T & the M G 's - Green Onions (Original - HQ audio).mp3", @content_type="audio/mpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Booker T & the M G 's - Green Onions (Original - HQ audio).mp3\"\r\nContent-Type: audio/mpeg\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"311d2aa64f6dd5ecbe1b655bff155a22"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 84ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=311d2aa64f6dd5ecbe1b655bff155a22" for 192.168.1.2 at 2015-11-15 20:40:35 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x3700dd0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-uvimgg.jpg>, @original_filename="Lol.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Lol.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"311d2aa64f6dd5ecbe1b655bff155a22"}
+  Rendered text template (0.3ms)
+Completed 200 OK in 43ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=311d2aa64f6dd5ecbe1b655bff155a22" for 192.168.1.2 at 2015-11-15 20:40:36 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x3570918 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-5spfut.txt>, @original_filename="tmp1.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"tmp1.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"311d2aa64f6dd5ecbe1b655bff155a22"}
+  Rendered text template (0.3ms)
+Completed 200 OK in 46ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=311d2aa64f6dd5ecbe1b655bff155a22" for 192.168.1.2 at 2015-11-15 20:40:37 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x32df8d0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-ptolbp.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"311d2aa64f6dd5ecbe1b655bff155a22"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 46ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 20:55:07 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["06_Oct.jpg", "K S R T C_BLR2UDP_10_29_2015.pdf"]}
+  Rendered text template (0.3ms)
+Completed 200 OK in 29ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 20:56:06 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 29ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 21:06:30 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 29ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 21:08:27 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_UDP2BLR_10_27_2015.pdf", "K S R T C_BLR2UDP_10_29_2015.pdf"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 30ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=7ff40025c0b901658ac07e1f083e0e22" for 192.168.1.2 at 2015-11-15 21:08:29 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x369cc90 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-1i2yhlj.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"7ff40025c0b901658ac07e1f083e0e22"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 54ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=7ff40025c0b901658ac07e1f083e0e22" for 192.168.1.2 at 2015-11-15 21:08:31 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x3507c30 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-1p8y69j.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"7ff40025c0b901658ac07e1f083e0e22"}
+  Rendered text template (0.4ms)
+Completed 200 OK in 41ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 21:11:51 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "Documents From Kishan P Rao.zip"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 29ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=5f22a14cbf02027f7ac7b45cafa3df08" for 192.168.1.2 at 2015-11-15 21:11:52 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x2f43bd0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-2jwgei.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"5f22a14cbf02027f7ac7b45cafa3df08"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 53ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=5f22a14cbf02027f7ac7b45cafa3df08" for 192.168.1.2 at 2015-11-15 21:12:31 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"5f22a14cbf02027f7ac7b45cafa3df08"}
+Completed 200 OK in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=5f22a14cbf02027f7ac7b45cafa3df08&file=0&data-no-turbolink=true" for 192.168.1.2 at 2015-11-15 21:12:31 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"5f22a14cbf02027f7ac7b45cafa3df08", "file"=>"0", "data-no-turbolink"=>"true"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/5f22a14cbf02027f7ac7b45cafa3df08/K S R T C_BLR2UDP_10_29_2015.pdf (1.0ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=5f22a14cbf02027f7ac7b45cafa3df08&file=0&data-no-turbolink=true" for 192.168.1.2 at 2015-11-15 21:12:32 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"5f22a14cbf02027f7ac7b45cafa3df08", "file"=>"0", "data-no-turbolink"=>"true"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/5f22a14cbf02027f7ac7b45cafa3df08/K S R T C_BLR2UDP_10_29_2015.pdf (1.0ms)
+Completed 200 OK in 6ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 21:32:30 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_UDP2BLR_10_27_2015.pdf", "K S R T C_BLR2UDP_10_29_2015.pdf", "06_Oct.jpg"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 30ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=62516805cb33f7a38cdf927c1a41050a" for 192.168.1.2 at 2015-11-15 21:32:31 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x3507510 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-pbznrd.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"62516805cb33f7a38cdf927c1a41050a"}
+  Rendered text template (0.3ms)
+Completed 200 OK in 43ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=62516805cb33f7a38cdf927c1a41050a" for 192.168.1.2 at 2015-11-15 21:32:33 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x3203148 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-13w7b1.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"62516805cb33f7a38cdf927c1a41050a"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 40ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=62516805cb33f7a38cdf927c1a41050a" for 192.168.1.2 at 2015-11-15 21:32:34 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x2f4bfa0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-179m562.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"62516805cb33f7a38cdf927c1a41050a"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 46ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=62516805cb33f7a38cdf927c1a41050a" for 192.168.1.2 at 2015-11-15 21:32:43 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"62516805cb33f7a38cdf927c1a41050a"}
+Completed 200 OK in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=62516805cb33f7a38cdf927c1a41050a&file=0&data-no-turbolink=true" for 192.168.1.2 at 2015-11-15 21:32:43 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"62516805cb33f7a38cdf927c1a41050a", "file"=>"0", "data-no-turbolink"=>"true"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/62516805cb33f7a38cdf927c1a41050a/06_Oct.jpg (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=62516805cb33f7a38cdf927c1a41050a&file=0&data-no-turbolink=true" for 192.168.1.2 at 2015-11-15 21:32:44 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"62516805cb33f7a38cdf927c1a41050a", "file"=>"0", "data-no-turbolink"=>"true"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/62516805cb33f7a38cdf927c1a41050a/06_Oct.jpg (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=62516805cb33f7a38cdf927c1a41050a&file=1&data-no-turbolink=true" for 192.168.1.2 at 2015-11-15 21:32:44 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"62516805cb33f7a38cdf927c1a41050a", "file"=>"1", "data-no-turbolink"=>"true"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/62516805cb33f7a38cdf927c1a41050a/K S R T C_BLR2UDP_10_29_2015.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=62516805cb33f7a38cdf927c1a41050a&file=1&data-no-turbolink=true" for 192.168.1.2 at 2015-11-15 21:32:45 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"62516805cb33f7a38cdf927c1a41050a", "file"=>"1", "data-no-turbolink"=>"true"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/62516805cb33f7a38cdf927c1a41050a/K S R T C_BLR2UDP_10_29_2015.pdf (0.8ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=62516805cb33f7a38cdf927c1a41050a&file=2&data-no-turbolink=true" for 192.168.1.2 at 2015-11-15 21:32:45 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"62516805cb33f7a38cdf927c1a41050a", "file"=>"2", "data-no-turbolink"=>"true"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/62516805cb33f7a38cdf927c1a41050a/K S R T C_UDP2BLR_10_27_2015.pdf (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=62516805cb33f7a38cdf927c1a41050a&file=2&data-no-turbolink=true" for 192.168.1.2 at 2015-11-15 21:32:46 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"62516805cb33f7a38cdf927c1a41050a", "file"=>"2", "data-no-turbolink"=>"true"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/62516805cb33f7a38cdf927c1a41050a/K S R T C_UDP2BLR_10_27_2015.pdf (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=62516805cb33f7a38cdf927c1a41050a" for 192.168.1.2 at 2015-11-15 21:33:12 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"62516805cb33f7a38cdf927c1a41050a"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=62516805cb33f7a38cdf927c1a41050a&file=0&data-no-turbolink=true" for 192.168.1.2 at 2015-11-15 21:33:13 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"62516805cb33f7a38cdf927c1a41050a", "file"=>"0", "data-no-turbolink"=>"true"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/62516805cb33f7a38cdf927c1a41050a/06_Oct.jpg (0.8ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=62516805cb33f7a38cdf927c1a41050a&file=0&data-no-turbolink=true" for 192.168.1.2 at 2015-11-15 21:33:14 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"62516805cb33f7a38cdf927c1a41050a", "file"=>"0", "data-no-turbolink"=>"true"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/62516805cb33f7a38cdf927c1a41050a/06_Oct.jpg (0.8ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=62516805cb33f7a38cdf927c1a41050a&file=1&data-no-turbolink=true" for 192.168.1.2 at 2015-11-15 21:33:15 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"62516805cb33f7a38cdf927c1a41050a", "file"=>"1", "data-no-turbolink"=>"true"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/62516805cb33f7a38cdf927c1a41050a/K S R T C_BLR2UDP_10_29_2015.pdf (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=62516805cb33f7a38cdf927c1a41050a&file=1&data-no-turbolink=true" for 192.168.1.2 at 2015-11-15 21:33:15 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"62516805cb33f7a38cdf927c1a41050a", "file"=>"1", "data-no-turbolink"=>"true"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/62516805cb33f7a38cdf927c1a41050a/K S R T C_BLR2UDP_10_29_2015.pdf (0.8ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=62516805cb33f7a38cdf927c1a41050a&file=2&data-no-turbolink=true" for 192.168.1.2 at 2015-11-15 21:33:16 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"62516805cb33f7a38cdf927c1a41050a", "file"=>"2", "data-no-turbolink"=>"true"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/62516805cb33f7a38cdf927c1a41050a/K S R T C_UDP2BLR_10_27_2015.pdf (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=62516805cb33f7a38cdf927c1a41050a&file=2&data-no-turbolink=true" for 192.168.1.2 at 2015-11-15 21:33:16 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"62516805cb33f7a38cdf927c1a41050a", "file"=>"2", "data-no-turbolink"=>"true"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/62516805cb33f7a38cdf927c1a41050a/K S R T C_UDP2BLR_10_27_2015.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=62516805cb33f7a38cdf927c1a41050a" for 192.168.1.2 at 2015-11-15 22:26:29 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"62516805cb33f7a38cdf927c1a41050a"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=62516805cb33f7a38cdf927c1a41050a" for 192.168.1.2 at 2015-11-15 22:26:58 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"62516805cb33f7a38cdf927c1a41050a"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 22:27:18 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 30ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=817d321f6c7879a27d1e9d6560064b80" for 192.168.1.2 at 2015-11-15 22:27:18 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x2e06998 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-19xvy1t.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"817d321f6c7879a27d1e9d6560064b80"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 44ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=817d321f6c7879a27d1e9d6560064b80" for 192.168.1.2 at 2015-11-15 22:27:19 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x35f8950 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-8umogl.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"817d321f6c7879a27d1e9d6560064b80"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 41ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=817d321f6c7879a27d1e9d6560064b80" for 192.168.1.2 at 2015-11-15 22:27:22 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x33ab0d8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-3k6iki.png>, @original_filename="Earth.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Earth.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"817d321f6c7879a27d1e9d6560064b80"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 61ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=817d321f6c7879a27d1e9d6560064b80" for 192.168.1.2 at 2015-11-15 22:27:26 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"817d321f6c7879a27d1e9d6560064b80"}
+Completed 200 OK in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=817d321f6c7879a27d1e9d6560064b80&file=0" for 192.168.1.2 at 2015-11-15 22:27:26 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"817d321f6c7879a27d1e9d6560064b80", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/817d321f6c7879a27d1e9d6560064b80/06_Oct.jpg (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=817d321f6c7879a27d1e9d6560064b80&file=0" for 192.168.1.2 at 2015-11-15 22:27:26 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"817d321f6c7879a27d1e9d6560064b80", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/817d321f6c7879a27d1e9d6560064b80/06_Oct.jpg (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=817d321f6c7879a27d1e9d6560064b80&file=1" for 192.168.1.2 at 2015-11-15 22:27:27 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"817d321f6c7879a27d1e9d6560064b80", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/817d321f6c7879a27d1e9d6560064b80/Earth.png (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=817d321f6c7879a27d1e9d6560064b80&file=1" for 192.168.1.2 at 2015-11-15 22:27:27 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"817d321f6c7879a27d1e9d6560064b80", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/817d321f6c7879a27d1e9d6560064b80/Earth.png (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=817d321f6c7879a27d1e9d6560064b80&file=2" for 192.168.1.2 at 2015-11-15 22:27:30 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"817d321f6c7879a27d1e9d6560064b80", "file"=>"2"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/817d321f6c7879a27d1e9d6560064b80/K S R T C_UDP2BLR_10_27_2015.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=817d321f6c7879a27d1e9d6560064b80&file=2" for 192.168.1.2 at 2015-11-15 22:27:31 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"817d321f6c7879a27d1e9d6560064b80", "file"=>"2"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/817d321f6c7879a27d1e9d6560064b80/K S R T C_UDP2BLR_10_27_2015.pdf (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=817d321f6c7879a27d1e9d6560064b80" for 192.168.1.2 at 2015-11-15 22:28:21 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"817d321f6c7879a27d1e9d6560064b80"}
+Completed 200 OK in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=817d321f6c7879a27d1e9d6560064b80&file=0" for 192.168.1.2 at 2015-11-15 22:28:22 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"817d321f6c7879a27d1e9d6560064b80", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/817d321f6c7879a27d1e9d6560064b80/06_Oct.jpg (0.7ms)
+Completed 200 OK in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=817d321f6c7879a27d1e9d6560064b80&file=0" for 192.168.1.2 at 2015-11-15 22:28:22 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"817d321f6c7879a27d1e9d6560064b80", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/817d321f6c7879a27d1e9d6560064b80/06_Oct.jpg (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=817d321f6c7879a27d1e9d6560064b80&file=1" for 192.168.1.2 at 2015-11-15 22:28:23 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"817d321f6c7879a27d1e9d6560064b80", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/817d321f6c7879a27d1e9d6560064b80/Earth.png (0.9ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=817d321f6c7879a27d1e9d6560064b80&file=1" for 192.168.1.2 at 2015-11-15 22:28:23 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"817d321f6c7879a27d1e9d6560064b80", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/817d321f6c7879a27d1e9d6560064b80/Earth.png (1.0ms)
+Completed 200 OK in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=817d321f6c7879a27d1e9d6560064b80&file=2" for 192.168.1.2 at 2015-11-15 22:28:27 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"817d321f6c7879a27d1e9d6560064b80", "file"=>"2"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/817d321f6c7879a27d1e9d6560064b80/K S R T C_UDP2BLR_10_27_2015.pdf (1.1ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=817d321f6c7879a27d1e9d6560064b80&file=2" for 192.168.1.2 at 2015-11-15 22:28:28 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"817d321f6c7879a27d1e9d6560064b80", "file"=>"2"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/817d321f6c7879a27d1e9d6560064b80/K S R T C_UDP2BLR_10_27_2015.pdf (0.8ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 22:35:28 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "Earth.png"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 29ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=90c1244be87484cbeebfef3faca75623" for 192.168.1.2 at 2015-11-15 22:35:30 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x2fd2bf8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-18uk5rn.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"90c1244be87484cbeebfef3faca75623"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 41ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=90c1244be87484cbeebfef3faca75623" for 192.168.1.2 at 2015-11-15 22:35:31 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x2ea3ec8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-1sh20sq.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"90c1244be87484cbeebfef3faca75623"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 39ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=90c1244be87484cbeebfef3faca75623" for 192.168.1.2 at 2015-11-15 22:35:39 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x254cfe8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-1us5ib0.png>, @original_filename="Earth.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"Earth.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"90c1244be87484cbeebfef3faca75623"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 61ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=90c1244be87484cbeebfef3faca75623" for 192.168.1.2 at 2015-11-15 22:35:40 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"90c1244be87484cbeebfef3faca75623"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=90c1244be87484cbeebfef3faca75623&file=0" for 192.168.1.2 at 2015-11-15 22:35:41 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"90c1244be87484cbeebfef3faca75623", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/90c1244be87484cbeebfef3faca75623/06_Oct.jpg (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=90c1244be87484cbeebfef3faca75623&file=0" for 192.168.1.2 at 2015-11-15 22:35:42 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"90c1244be87484cbeebfef3faca75623", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/90c1244be87484cbeebfef3faca75623/06_Oct.jpg (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=90c1244be87484cbeebfef3faca75623&file=1" for 192.168.1.2 at 2015-11-15 22:35:43 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"90c1244be87484cbeebfef3faca75623", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/90c1244be87484cbeebfef3faca75623/Earth.png (0.8ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=90c1244be87484cbeebfef3faca75623&file=1" for 192.168.1.2 at 2015-11-15 22:35:43 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"90c1244be87484cbeebfef3faca75623", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/90c1244be87484cbeebfef3faca75623/Earth.png (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=90c1244be87484cbeebfef3faca75623&file=2" for 192.168.1.2 at 2015-11-15 22:35:47 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"90c1244be87484cbeebfef3faca75623", "file"=>"2"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/90c1244be87484cbeebfef3faca75623/K S R T C_UDP2BLR_10_27_2015.pdf (0.8ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=90c1244be87484cbeebfef3faca75623&file=2" for 192.168.1.2 at 2015-11-15 22:35:47 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"90c1244be87484cbeebfef3faca75623", "file"=>"2"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/90c1244be87484cbeebfef3faca75623/K S R T C_UDP2BLR_10_27_2015.pdf (0.8ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=90c1244be87484cbeebfef3faca75623" for 192.168.1.2 at 2015-11-15 22:37:01 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"90c1244be87484cbeebfef3faca75623"}
+Completed 200 OK in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=90c1244be87484cbeebfef3faca75623&file=0" for 192.168.1.2 at 2015-11-15 22:37:02 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"90c1244be87484cbeebfef3faca75623", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/90c1244be87484cbeebfef3faca75623/06_Oct.jpg (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=90c1244be87484cbeebfef3faca75623&file=0" for 192.168.1.2 at 2015-11-15 22:37:02 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"90c1244be87484cbeebfef3faca75623", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/90c1244be87484cbeebfef3faca75623/06_Oct.jpg (0.8ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=90c1244be87484cbeebfef3faca75623&file=1" for 192.168.1.2 at 2015-11-15 22:37:03 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"90c1244be87484cbeebfef3faca75623", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/90c1244be87484cbeebfef3faca75623/Earth.png (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=90c1244be87484cbeebfef3faca75623&file=1" for 192.168.1.2 at 2015-11-15 22:37:04 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"90c1244be87484cbeebfef3faca75623", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/90c1244be87484cbeebfef3faca75623/Earth.png (0.8ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=90c1244be87484cbeebfef3faca75623&file=2" for 192.168.1.2 at 2015-11-15 22:37:07 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"90c1244be87484cbeebfef3faca75623", "file"=>"2"}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+TypeError (no implicit conversion of nil into String):
+  app/controllers/home_controller.rb:36:in `initialize'
+  app/controllers/home_controller.rb:36:in `new'
+  app/controllers/home_controller.rb:36:in `download'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (77.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (38.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (176.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (478.1ms)
+
+
+Started GET "/download/?hash=90c1244be87484cbeebfef3faca75623&file=2" for 192.168.1.2 at 2015-11-15 22:37:10 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"90c1244be87484cbeebfef3faca75623", "file"=>"2"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+TypeError (no implicit conversion of nil into String):
+  app/controllers/home_controller.rb:36:in `initialize'
+  app/controllers/home_controller.rb:36:in `new'
+  app/controllers/home_controller.rb:36:in `download'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (111.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (41.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (17.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (327.2ms)
+
+
+Started GET "/fileCount/?hash=90c1244be87484cbeebfef3faca75623" for 192.168.1.2 at 2015-11-15 22:39:18 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"90c1244be87484cbeebfef3faca75623"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=90c1244be87484cbeebfef3faca75623" for 192.168.1.2 at 2015-11-15 22:39:30 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"90c1244be87484cbeebfef3faca75623"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=90c1244be87484cbeebfef3faca75623" for 192.168.1.2 at 2015-11-15 22:40:47 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"90c1244be87484cbeebfef3faca75623"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=90c1244be87484cbeebfef3faca75623" for 192.168.1.2 at 2015-11-15 22:41:49 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"90c1244be87484cbeebfef3faca75623"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 22:42:04 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg"]}
+  Rendered text template (0.3ms)
+Completed 200 OK in 42ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4" for 192.168.1.2 at 2015-11-15 22:42:06 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x35d8b50 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-168yjto.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4"}
+  Rendered text template (0.3ms)
+Completed 200 OK in 48ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4" for 192.168.1.2 at 2015-11-15 22:42:08 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x37b0030 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-ap6tce.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 40ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4" for 192.168.1.2 at 2015-11-15 22:42:09 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x35a7578 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-1plx7gk.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 41ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4" for 192.168.1.2 at 2015-11-15 22:42:17 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=0" for 192.168.1.2 at 2015-11-15 22:42:18 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/06_Oct.jpg (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=0" for 192.168.1.2 at 2015-11-15 22:42:18 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/06_Oct.jpg (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=1" for 192.168.1.2 at 2015-11-15 22:42:19 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/K S R T C_BLR2UDP_10_29_2015.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=1" for 192.168.1.2 at 2015-11-15 22:42:20 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/K S R T C_BLR2UDP_10_29_2015.pdf (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=2" for 192.168.1.2 at 2015-11-15 22:42:23 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"2"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/K S R T C_UDP2BLR_10_27_2015.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=2" for 192.168.1.2 at 2015-11-15 22:42:24 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"2"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/K S R T C_UDP2BLR_10_27_2015.pdf (0.7ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4" for 192.168.1.2 at 2015-11-15 22:42:27 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=0" for 192.168.1.2 at 2015-11-15 22:42:28 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/06_Oct.jpg (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=0" for 192.168.1.2 at 2015-11-15 22:42:29 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/06_Oct.jpg (4.1ms)
+Completed 200 OK in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=1" for 192.168.1.2 at 2015-11-15 22:42:30 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/K S R T C_BLR2UDP_10_29_2015.pdf (0.8ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=1" for 192.168.1.2 at 2015-11-15 22:42:31 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/K S R T C_BLR2UDP_10_29_2015.pdf (0.7ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=2" for 192.168.1.2 at 2015-11-15 22:42:32 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"2"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/K S R T C_UDP2BLR_10_27_2015.pdf (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=2" for 192.168.1.2 at 2015-11-15 22:42:33 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"2"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/K S R T C_UDP2BLR_10_27_2015.pdf (0.7ms)
+Completed 200 OK in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4" for 192.168.1.2 at 2015-11-15 22:42:34 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4"}
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=0" for 192.168.1.2 at 2015-11-15 22:42:34 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/06_Oct.jpg (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=0" for 192.168.1.2 at 2015-11-15 22:42:35 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/06_Oct.jpg (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=1" for 192.168.1.2 at 2015-11-15 22:42:35 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/K S R T C_BLR2UDP_10_29_2015.pdf (1.0ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=1" for 192.168.1.2 at 2015-11-15 22:42:36 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/K S R T C_BLR2UDP_10_29_2015.pdf (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=2" for 192.168.1.2 at 2015-11-15 22:42:36 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"2"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/K S R T C_UDP2BLR_10_27_2015.pdf (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=2" for 192.168.1.2 at 2015-11-15 22:42:37 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"2"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/K S R T C_UDP2BLR_10_27_2015.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4" for 192.168.1.2 at 2015-11-15 22:43:44 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4"}
+Completed 200 OK in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=0" for 192.168.1.2 at 2015-11-15 22:43:45 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/06_Oct.jpg (0.8ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=0" for 192.168.1.2 at 2015-11-15 22:43:46 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/06_Oct.jpg (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=1" for 192.168.1.2 at 2015-11-15 22:43:47 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/K S R T C_BLR2UDP_10_29_2015.pdf (0.9ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=1" for 192.168.1.2 at 2015-11-15 22:43:47 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/K S R T C_BLR2UDP_10_29_2015.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=2" for 192.168.1.2 at 2015-11-15 22:43:48 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"2"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/K S R T C_UDP2BLR_10_27_2015.pdf (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=4d2e7496ae0b99ed5bf519cfe23f51c4&file=2" for 192.168.1.2 at 2015-11-15 22:43:49 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"4d2e7496ae0b99ed5bf519cfe23f51c4", "file"=>"2"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/4d2e7496ae0b99ed5bf519cfe23f51c4/K S R T C_UDP2BLR_10_27_2015.pdf (0.8ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 22:50:23 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["06_Oct.jpg", "K S R T C_UDP2BLR_10_27_2015.pdf"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 30ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=c510e7f33cef5c35b584502abcc46a78" for 192.168.1.2 at 2015-11-15 22:50:25 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x1423470 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-hu6gzf.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"c510e7f33cef5c35b584502abcc46a78"}
+  Rendered text template (0.3ms)
+Completed 200 OK in 72ms (Views: 54.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=c510e7f33cef5c35b584502abcc46a78" for 192.168.1.2 at 2015-11-15 22:50:28 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x36682b0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-r8dpia.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"c510e7f33cef5c35b584502abcc46a78"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 39ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=c510e7f33cef5c35b584502abcc46a78" for 192.168.1.2 at 2015-11-15 22:50:29 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"c510e7f33cef5c35b584502abcc46a78"}
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=c510e7f33cef5c35b584502abcc46a78&file=0" for 192.168.1.2 at 2015-11-15 22:50:30 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"c510e7f33cef5c35b584502abcc46a78", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/c510e7f33cef5c35b584502abcc46a78/06_Oct.jpg (0.9ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=c510e7f33cef5c35b584502abcc46a78&file=0" for 192.168.1.2 at 2015-11-15 22:50:30 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"c510e7f33cef5c35b584502abcc46a78", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/c510e7f33cef5c35b584502abcc46a78/06_Oct.jpg (1.0ms)
+Completed 200 OK in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=c510e7f33cef5c35b584502abcc46a78&file=1" for 192.168.1.2 at 2015-11-15 22:50:31 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"c510e7f33cef5c35b584502abcc46a78", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/c510e7f33cef5c35b584502abcc46a78/K S R T C_UDP2BLR_10_27_2015.pdf (1.2ms)
+Completed 200 OK in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=c510e7f33cef5c35b584502abcc46a78&file=1" for 192.168.1.2 at 2015-11-15 22:50:31 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"c510e7f33cef5c35b584502abcc46a78", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/c510e7f33cef5c35b584502abcc46a78/K S R T C_UDP2BLR_10_27_2015.pdf (0.9ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=c510e7f33cef5c35b584502abcc46a78" for 192.168.1.2 at 2015-11-15 22:52:38 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"c510e7f33cef5c35b584502abcc46a78"}
+Completed 200 OK in 3ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 22:53:08 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_UDP2BLR_10_27_2015.pdf", "K S R T C_BLR2UDP_10_29_2015.pdf", "06_Oct.jpg"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 29ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=689ee6fbacb64e612b2de87867645262" for 192.168.1.2 at 2015-11-15 22:53:09 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x35cc1c0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-1c6ismf.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"689ee6fbacb64e612b2de87867645262"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 40ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=689ee6fbacb64e612b2de87867645262" for 192.168.1.2 at 2015-11-15 22:53:09 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x33bdd98 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-1ti2me2.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"689ee6fbacb64e612b2de87867645262"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 41ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=689ee6fbacb64e612b2de87867645262" for 192.168.1.2 at 2015-11-15 22:53:10 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x30371b8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-ewvcya.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"689ee6fbacb64e612b2de87867645262"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 39ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=689ee6fbacb64e612b2de87867645262" for 192.168.1.2 at 2015-11-15 22:53:16 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"689ee6fbacb64e612b2de87867645262"}
+Completed 200 OK in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=689ee6fbacb64e612b2de87867645262&file=0" for 192.168.1.2 at 2015-11-15 22:53:17 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"689ee6fbacb64e612b2de87867645262", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/689ee6fbacb64e612b2de87867645262/06_Oct.jpg (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=689ee6fbacb64e612b2de87867645262&file=0" for 192.168.1.2 at 2015-11-15 22:53:17 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"689ee6fbacb64e612b2de87867645262", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/689ee6fbacb64e612b2de87867645262/06_Oct.jpg (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=689ee6fbacb64e612b2de87867645262&file=1" for 192.168.1.2 at 2015-11-15 22:53:18 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"689ee6fbacb64e612b2de87867645262", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/689ee6fbacb64e612b2de87867645262/K S R T C_BLR2UDP_10_29_2015.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=689ee6fbacb64e612b2de87867645262&file=1" for 192.168.1.2 at 2015-11-15 22:53:18 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"689ee6fbacb64e612b2de87867645262", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/689ee6fbacb64e612b2de87867645262/K S R T C_BLR2UDP_10_29_2015.pdf (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=689ee6fbacb64e612b2de87867645262&file=2" for 192.168.1.2 at 2015-11-15 22:53:19 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"689ee6fbacb64e612b2de87867645262", "file"=>"2"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/689ee6fbacb64e612b2de87867645262/K S R T C_UDP2BLR_10_27_2015.pdf (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=689ee6fbacb64e612b2de87867645262&file=2" for 192.168.1.2 at 2015-11-15 22:53:19 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"689ee6fbacb64e612b2de87867645262", "file"=>"2"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/689ee6fbacb64e612b2de87867645262/K S R T C_UDP2BLR_10_27_2015.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=689ee6fbacb64e612b2de87867645262" for 192.168.1.2 at 2015-11-15 22:54:33 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"689ee6fbacb64e612b2de87867645262"}
+Completed 200 OK in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=689ee6fbacb64e612b2de87867645262&file=0" for 192.168.1.2 at 2015-11-15 22:54:33 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"689ee6fbacb64e612b2de87867645262", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/689ee6fbacb64e612b2de87867645262/06_Oct.jpg (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=689ee6fbacb64e612b2de87867645262&file=0" for 192.168.1.2 at 2015-11-15 22:54:34 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"689ee6fbacb64e612b2de87867645262", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/689ee6fbacb64e612b2de87867645262/06_Oct.jpg (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=689ee6fbacb64e612b2de87867645262&file=1" for 192.168.1.2 at 2015-11-15 22:54:35 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"689ee6fbacb64e612b2de87867645262", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/689ee6fbacb64e612b2de87867645262/K S R T C_BLR2UDP_10_29_2015.pdf (3.7ms)
+Completed 200 OK in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=689ee6fbacb64e612b2de87867645262&file=1" for 192.168.1.2 at 2015-11-15 22:54:35 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"689ee6fbacb64e612b2de87867645262", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/689ee6fbacb64e612b2de87867645262/K S R T C_BLR2UDP_10_29_2015.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=689ee6fbacb64e612b2de87867645262&file=2" for 192.168.1.2 at 2015-11-15 22:54:36 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"689ee6fbacb64e612b2de87867645262", "file"=>"2"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/689ee6fbacb64e612b2de87867645262/K S R T C_UDP2BLR_10_27_2015.pdf (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=689ee6fbacb64e612b2de87867645262&file=2" for 192.168.1.2 at 2015-11-15 22:54:37 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"689ee6fbacb64e612b2de87867645262", "file"=>"2"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/689ee6fbacb64e612b2de87867645262/K S R T C_UDP2BLR_10_27_2015.pdf (0.7ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 22:57:16 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg", "06_Oct.jpg"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 30ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=fecc48aa8c0dca6f16d01200f0d5366d" for 192.168.1.2 at 2015-11-15 22:57:18 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x2f0b7e8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-yursq1.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"fecc48aa8c0dca6f16d01200f0d5366d"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 39ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=fecc48aa8c0dca6f16d01200f0d5366d" for 192.168.1.2 at 2015-11-15 22:57:19 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x2621fa0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-1js6waw.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"fecc48aa8c0dca6f16d01200f0d5366d"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 51ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=fecc48aa8c0dca6f16d01200f0d5366d" for 192.168.1.2 at 2015-11-15 22:57:21 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x23a52f8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-l9fof7.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"fecc48aa8c0dca6f16d01200f0d5366d"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 40ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=fecc48aa8c0dca6f16d01200f0d5366d" for 192.168.1.2 at 2015-11-15 22:57:26 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"fecc48aa8c0dca6f16d01200f0d5366d"}
+Completed 200 OK in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=fecc48aa8c0dca6f16d01200f0d5366d&file=0" for 192.168.1.2 at 2015-11-15 22:57:27 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"fecc48aa8c0dca6f16d01200f0d5366d", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/fecc48aa8c0dca6f16d01200f0d5366d/06_Oct.jpg (0.9ms)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=fecc48aa8c0dca6f16d01200f0d5366d&file=0" for 192.168.1.2 at 2015-11-15 22:57:28 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"fecc48aa8c0dca6f16d01200f0d5366d", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/fecc48aa8c0dca6f16d01200f0d5366d/06_Oct.jpg (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=fecc48aa8c0dca6f16d01200f0d5366d&file=1" for 192.168.1.2 at 2015-11-15 22:57:29 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"fecc48aa8c0dca6f16d01200f0d5366d", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/fecc48aa8c0dca6f16d01200f0d5366d/K S R T C_UDP2BLR_10_27_2015.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=fecc48aa8c0dca6f16d01200f0d5366d&file=1" for 192.168.1.2 at 2015-11-15 22:57:30 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"fecc48aa8c0dca6f16d01200f0d5366d", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/fecc48aa8c0dca6f16d01200f0d5366d/K S R T C_UDP2BLR_10_27_2015.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=fecc48aa8c0dca6f16d01200f0d5366d" for 192.168.1.2 at 2015-11-15 22:59:39 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"fecc48aa8c0dca6f16d01200f0d5366d"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 22:59:50 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 30ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=6fd34907bbef72d0be18ae63e9651177" for 192.168.1.2 at 2015-11-15 22:59:50 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x2339a78 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-n5r4iq.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"6fd34907bbef72d0be18ae63e9651177"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 41ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=6fd34907bbef72d0be18ae63e9651177" for 192.168.1.2 at 2015-11-15 22:59:51 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>#<ActionDispatch::Http::UploadedFile:0x137e350 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1370-1cyiisv.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\ndata-no-turbolink: true\r\n">, "hash"=>"6fd34907bbef72d0be18ae63e9651177"}
+  Rendered text template (0.6ms)
+Completed 200 OK in 80ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=6fd34907bbef72d0be18ae63e9651177" for 192.168.1.2 at 2015-11-15 22:59:56 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"6fd34907bbef72d0be18ae63e9651177"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=6fd34907bbef72d0be18ae63e9651177&file=0" for 192.168.1.2 at 2015-11-15 22:59:57 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"6fd34907bbef72d0be18ae63e9651177", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/6fd34907bbef72d0be18ae63e9651177/06_Oct.jpg (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=6fd34907bbef72d0be18ae63e9651177&file=0" for 192.168.1.2 at 2015-11-15 22:59:57 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"6fd34907bbef72d0be18ae63e9651177", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/6fd34907bbef72d0be18ae63e9651177/06_Oct.jpg (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=6fd34907bbef72d0be18ae63e9651177&file=1" for 192.168.1.2 at 2015-11-15 22:59:58 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"6fd34907bbef72d0be18ae63e9651177", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/6fd34907bbef72d0be18ae63e9651177/K S R T C_UDP2BLR_10_27_2015.pdf (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=6fd34907bbef72d0be18ae63e9651177&file=1" for 192.168.1.2 at 2015-11-15 22:59:58 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"6fd34907bbef72d0be18ae63e9651177", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/6fd34907bbef72d0be18ae63e9651177/K S R T C_UDP2BLR_10_27_2015.pdf (0.9ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fileCount/?hash=6fd34907bbef72d0be18ae63e9651177" for 192.168.1.2 at 2015-11-15 23:00:05 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#numOfFiles as HTML
+  Parameters: {"hash"=>"6fd34907bbef72d0be18ae63e9651177"}
+Completed 200 OK in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=6fd34907bbef72d0be18ae63e9651177&file=0" for 192.168.1.2 at 2015-11-15 23:00:05 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"6fd34907bbef72d0be18ae63e9651177", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/6fd34907bbef72d0be18ae63e9651177/06_Oct.jpg (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=6fd34907bbef72d0be18ae63e9651177&file=0" for 192.168.1.2 at 2015-11-15 23:00:06 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"6fd34907bbef72d0be18ae63e9651177", "file"=>"0"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/6fd34907bbef72d0be18ae63e9651177/06_Oct.jpg (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=6fd34907bbef72d0be18ae63e9651177&file=1" for 192.168.1.2 at 2015-11-15 23:00:07 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"6fd34907bbef72d0be18ae63e9651177", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/6fd34907bbef72d0be18ae63e9651177/K S R T C_UDP2BLR_10_27_2015.pdf (0.6ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download/?hash=6fd34907bbef72d0be18ae63e9651177&file=1" for 192.168.1.2 at 2015-11-15 23:00:08 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#download as HTML
+  Parameters: {"hash"=>"6fd34907bbef72d0be18ae63e9651177", "file"=>"1"}
+Sent file /home/pi/RailsServer/swiftshareOnRails/Store/6fd34907bbef72d0be18ae63e9651177/K S R T C_UDP2BLR_10_27_2015.pdf (0.7ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)

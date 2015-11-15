@@ -12,7 +12,7 @@ class DataFile < ActiveRecord::Base
 	end
 =end
 	 puts "Enter DataFile\n"
-	 puts fileUpload[1]
+	 puts fileUpload
 	 
 	#hash = Digest::MD5.hexdigest(fileUpload.join)
 	#time = Time.now.to_i
@@ -26,11 +26,10 @@ class DataFile < ActiveRecord::Base
 	directory = "/home/pi/RailsServer/swiftshareOnRails/Store/" + hash
 	#Dir.mkdir directory
 	
-	fileUpload.each do |f|
-		name = f.original_filename
-		path = File.join(directory, name)
-		File.open(path, "wb") { |file| file.write(f.read) }
-	end	
+	f=fileUpload
+	name = f.original_filename
+	path = File.join(directory, name)
+	File.open(path, "wb") { |file| file.write(f.read) }
 	
 	return hash
 	

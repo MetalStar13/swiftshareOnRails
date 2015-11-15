@@ -10,14 +10,15 @@ class HomeController < ApplicationController
 	end
 	
 	def generateHash
+		require 'digest'
 	
 =begin
 		numFiles = params[:num]
 		puts "Files to be uploaded", numFiles
 =end
 		files = params[:files]
-		hash = Digest::MD5.hexdigest(files.join)
-		puts "HASH", hash
+		hash = Digest::MD5.hexdigest(files.to_s + Time.now.to_i.to_s)
+		puts "HASH", hash, "files", files.to_s, Time.now.to_i
 		directory = "/home/pi/RailsServer/swiftshareOnRails/Store/" + hash
 		Dir.mkdir directory
 		render :text => hash
