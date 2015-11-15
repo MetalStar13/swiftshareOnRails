@@ -38,12 +38,12 @@ class HomeController < ApplicationController
   end
   
   def upload
-	# puts "Enter Home\n"
+	 puts "Enter Home\n"
     post = DataFile.save(params[:fileUpload])
     
-    #puts "\n"
-    #puts post
-    #puts "\n"
+    puts "\n"
+    puts post
+    puts "\n"
     
     render :text => post
   end

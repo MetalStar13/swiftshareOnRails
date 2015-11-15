@@ -11,7 +11,7 @@ class DataFile < ActiveRecord::Base
 		File.open(path, "wb") { |file| file.write(f.read) }
 	end
 =end
-	# puts "Enter DataFile\n"
+	 puts "Enter DataFile\n"
 	hash = Digest::MD5.hexdigest(fileUpload.join)
 	time = Time.now.to_i
 	#MD5 32, SHA1 40, SHA256 64
