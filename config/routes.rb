@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 	get 'download' => 'home#download', as: :controller_download
 	#post 'download' => 'home#download', as: :controller_download
 	get 'fileCount' => 'home#numOfFiles'
+	post 'hash' => 'home#generateHash'
 	#post 'home/upload' => 'home#upload'
 	post 'upload' => 'home#upload'
   # The priority is based upon order of creation: first created -> highest priority.

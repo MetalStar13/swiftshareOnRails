@@ -8,6 +8,20 @@ class HomeController < ApplicationController
 		count = @location.size.to_s
 		head fileCount: count
 	end
+	
+	def generateHash
+	
+=begin
+		numFiles = params[:num]
+		puts "Files to be uploaded", numFiles
+=end
+		files = params[:files]
+		hash = Digest::MD5.hexdigest(files.join)
+		puts "HASH", hash
+		directory = "/home/pi/RailsServer/swiftshareOnRails/Store/" + hash
+		Dir.mkdir directory
+		render :text => hash
+	end
 
   def download
 	@hash = params[:hash]
@@ -39,7 +53,8 @@ class HomeController < ApplicationController
   
   def upload
 	 puts "Enter Home\n"
-    post = DataFile.save(params[:fileUpload])
+	 #puts "PARAM: ",params
+    post = DataFile.save(params[:fileUpload],params[:hash])
     
     puts "\n"
     puts post

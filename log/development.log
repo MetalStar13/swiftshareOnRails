@@ -16640,3 +16640,1339 @@ Processing by HomeController#upload as HTML
   Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x2749968 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-1885-1pyt0ct.mp3>, @original_filename="Booker T & the M G 's - Green Onions (Original - HQ audio).mp3", @content_type="audio/mpeg", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"Booker T & the M G 's - Green Onions (Original - HQ audio).mp3\"\r\nContent-Type: audio/mpeg\r\nContent-Transfer-Encoding: binary\r\n">]}
   Rendered text template (0.2ms)
 Completed 200 OK in 72ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.1.2 at 2015-11-15 10:43:27 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x2365ad0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-23623-1ru23x8.txt>, @original_filename="tmp1.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"tmp1.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.3ms)
+Completed 200 OK in 270ms (Views: 78.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.1.2 at 2015-11-15 11:21:03 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x34be928 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-28258-13qp8ma.txt>, @original_filename="tmp1.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"tmp1.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 266ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.1.2 at 2015-11-15 11:27:49 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x41b8fc0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-28608-11wbf0d.jpg>, @original_filename="Lol.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"Lol.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 277ms (Views: 86.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.1.2 at 2015-11-15 11:34:32 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x3e4d9b0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-29405-u21hfg.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 264ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-15 12:09:44 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2260.6ms)
+Completed 500 Internal Server Error in 2912ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'):
+    3: <head>
+    4:   <title>SwiftShare</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/assets/javascripts/application.js:15
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___761428656_29543580'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (163.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (74.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (427.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (4.9ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (3.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (7.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (4.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (227.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (3.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (7.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (498.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-15 12:09:53 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (92.8ms)
+Completed 500 Internal Server Error in 421ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'):
+    3: <head>
+    4:   <title>SwiftShare</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/assets/javascripts/application.js:15
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___761428656_29543580'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (142.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (59.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (12.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (368.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (4.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (3.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (3.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (4.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (194.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (4.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (4.9ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (397.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-15 12:09:58 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (80.9ms)
+Completed 500 Internal Server Error in 363ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'):
+    3: <head>
+    4:   <title>SwiftShare</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/assets/javascripts/application.js:15
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___761428656_29543580'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (145.9ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (60.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (12.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (375.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (5.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (4.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (3.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (5.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (202.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (3.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (5.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (405.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-15 12:10:04 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (86.8ms)
+Completed 500 Internal Server Error in 396ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'):
+    3: <head>
+    4:   <title>SwiftShare</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/assets/javascripts/application.js:15
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___761428656_29543580'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (144.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (61.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (13.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (372.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (4.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (4.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (4.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (5.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (197.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (3.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (6.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (400.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-15 12:10:30 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (75.5ms)
+Completed 500 Internal Server Error in 627ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'):
+    3: <head>
+    4:   <title>SwiftShare</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/assets/javascripts/application.js:15
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___761428656_29543580'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (183.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (60.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (418.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (4.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (4.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (3.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (4.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (195.9ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (3.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (5.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (393.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-15 12:10:35 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (82.3ms)
+Completed 500 Internal Server Error in 382ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'):
+    3: <head>
+    4:   <title>SwiftShare</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/assets/javascripts/application.js:15
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___761428656_29543580'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (137.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (61.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (12.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (364.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (4.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (4.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (4.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (4.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (200.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (3.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (5.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (399.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-15 12:10:40 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (70.4ms)
+Completed 500 Internal Server Error in 400ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'):
+    3: <head>
+    4:   <title>SwiftShare</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/assets/javascripts/application.js:15
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___761428656_29543580'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (158.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (61.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (17.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (391.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (3.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (4.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (3.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (5.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (193.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (4.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (4.9ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (389.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-15 12:12:05 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2219.0ms)
+Completed 500 Internal Server Error in 2585ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'):
+    3: <head>
+    4:   <title>SwiftShare</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/assets/javascripts/application.js:15
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__852589254_19928088'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (153.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (67.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (406.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (5.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (4.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (4.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (3.9ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (208.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (3.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (6.9ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (450.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-15 12:12:14 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (75.0ms)
+Completed 500 Internal Server Error in 397ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'):
+    3: <head>
+    4:   <title>SwiftShare</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/assets/javascripts/application.js:15
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__852589254_19928088'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (138.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (55.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (369.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (4.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (5.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (4.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (4.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (210.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (4.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (5.9ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (421.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-15 12:13:11 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2179.2ms)
+Completed 500 Internal Server Error in 2676ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'):
+    3: <head>
+    4:   <title>SwiftShare</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/assets/javascripts/application.js:15
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___715382844_25788912'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (234.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (74.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (20.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (495.9ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (5.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (4.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (4.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (8.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (219.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (3.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (9.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (477.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-15 12:13:20 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (95.9ms)
+Completed 500 Internal Server Error in 518ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'):
+    3: <head>
+    4:   <title>SwiftShare</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/assets/javascripts/application.js:15
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___715382844_25788912'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (146.9ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (65.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (13.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (383.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (5.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (4.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (3.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (4.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (199.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (3.9ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (5.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (407.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-15 12:13:43 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (89.1ms)
+Completed 500 Internal Server Error in 423ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'):
+    3: <head>
+    4:   <title>SwiftShare</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/assets/javascripts/application.js:15
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___715382844_25788912'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (143.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (64.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (377.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (6.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (4.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (4.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (4.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (201.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (3.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (5.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (408.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-15 12:13:48 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (72.4ms)
+Completed 500 Internal Server Error in 486ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'):
+    3: <head>
+    4:   <title>SwiftShare</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/assets/javascripts/application.js:15
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___715382844_25788912'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (139.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (52.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (13.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (420.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (4.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (4.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (6.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (4.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (205.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (3.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (5.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (409.4ms)
+
+
+Started POST "/upload" for 192.168.1.2 at 2015-11-15 12:43:05 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>["content of file 1", #<ActionDispatch::Http::UploadedFile:0x3cbd480 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-3835-dvmk0u.txt>, @original_filename="tmp1.txt", @content_type="text/plain", @headers="ntent-Disposition: form-data; name=\"fileUpload[]\"; filename=\"tmp1.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">]}
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `original_filename' for "content of file 1":String):
+  app/models/data_file.rb:28:in `block in save'
+  app/models/data_file.rb:27:in `each'
+  app/models/data_file.rb:27:in `save'
+  app/controllers/home_controller.rb:42:in `upload'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (77.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (36.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (163.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (441.1ms)
+
+
+Started POST "/upload" for 192.168.1.2 at 2015-11-15 12:48:37 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x22b2088 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-4285-cio7us.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, "file 2 content\n\r\n"]}
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `original_filename' for "file 2 content\n\r\n":String):
+  app/models/data_file.rb:28:in `block in save'
+  app/models/data_file.rb:27:in `each'
+  app/models/data_file.rb:27:in `save'
+  app/controllers/home_controller.rb:42:in `upload'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (77.9ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (37.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (160.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (446.9ms)
+
+
+Started POST "/upload" for 192.168.1.2 at 2015-11-15 14:43:30 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x4004fe8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-2237-j52vpo.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, "file 2 content\n\r\n"]}
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `original_filename' for "file 2 content\n\r\n":String):
+  app/models/data_file.rb:28:in `block in save'
+  app/models/data_file.rb:27:in `each'
+  app/models/data_file.rb:27:in `save'
+  app/controllers/home_controller.rb:42:in `upload'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (75.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (38.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (179.9ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (473.7ms)
+
+
+Started POST "/upload" for 192.168.1.2 at 2015-11-15 14:44:58 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x410c280 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-2237-oauway.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, "file 2 content\n\r\n"]}
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `original_filename' for "file 2 content\n\r\n":String):
+  app/models/data_file.rb:29:in `block in save'
+  app/models/data_file.rb:28:in `each'
+  app/models/data_file.rb:28:in `save'
+  app/controllers/home_controller.rb:42:in `upload'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (76.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (38.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (305.5ms)
+
+
+Started POST "/upload" for 192.168.1.2 at 2015-11-15 14:45:20 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x424d040 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-2237-3ugcr8.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, "file 2 content\n\r\n"]}
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `original_filename' for "file 2 content\n\r\n":String):
+  app/models/data_file.rb:29:in `block in save'
+  app/models/data_file.rb:28:in `each'
+  app/models/data_file.rb:28:in `save'
+  app/controllers/home_controller.rb:42:in `upload'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (78.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (41.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (18.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (299.9ms)
+
+
+Started POST "/upload" for 192.168.1.2 at 2015-11-15 14:45:28 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x43a58a8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-2237-d5v1ju.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, "file 2 content\n\r\n"]}
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `original_filename' for "file 2 content\n\r\n":String):
+  app/models/data_file.rb:15:in `save'
+  app/controllers/home_controller.rb:42:in `upload'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (75.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (38.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (17.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (283.5ms)
+
+
+Started POST "/upload" for 192.168.1.2 at 2015-11-15 14:45:59 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x1fde728 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-2237-2r8l32.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, "file 2 content\n\r\n"]}
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `filename' for "file 2 content\n\r\n":String):
+  app/models/data_file.rb:15:in `save'
+  app/controllers/home_controller.rb:42:in `upload'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (76.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (37.8ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (18.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (287.6ms)
+
+
+Started POST "/upload" for 192.168.1.2 at 2015-11-15 14:46:51 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x2df7638 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-2237-16au4i6.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, "file 2 content\n\r\n"]}
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `name' for "file 2 content\n\r\n":String):
+  app/models/data_file.rb:15:in `save'
+  app/controllers/home_controller.rb:42:in `upload'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (75.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (38.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (276.9ms)
+
+
+Started POST "/upload" for 192.168.1.2 at 2015-11-15 14:47:38 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x3154110 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-2237-1dth2b1.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, "file 2 content\n\r\n"]}
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `original_filename' for "file 2 content\n\r\n":String):
+  app/models/data_file.rb:29:in `block in save'
+  app/models/data_file.rb:28:in `each'
+  app/models/data_file.rb:28:in `save'
+  app/controllers/home_controller.rb:43:in `upload'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (76.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (39.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (278.9ms)
+
+
+Started POST "/upload" for 192.168.1.2 at 2015-11-15 14:51:38 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x3bbfda0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-2237-e4sjsg.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, "file 2 content\n\r\n"]}
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `original_filename' for "file 2 content\n\r\n":String):
+  app/models/data_file.rb:29:in `block in save'
+  app/models/data_file.rb:28:in `each'
+  app/models/data_file.rb:28:in `save'
+  app/controllers/home_controller.rb:43:in `upload'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (78.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (38.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (285.0ms)
+
+
+Started POST "/upload" for 192.168.1.2 at 2015-11-15 14:52:48 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x282eef8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-3051-be6lfd.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">, "file 2 content\n\r\n"]}
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `original_filename' for "file 2 content\n\r\n":String):
+  app/models/data_file.rb:29:in `block in save'
+  app/models/data_file.rb:28:in `each'
+  app/models/data_file.rb:28:in `save'
+  app/controllers/home_controller.rb:43:in `upload'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (77.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (39.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (178.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (456.1ms)
+
+
+Started POST "/upload" for 192.168.1.2 at 2015-11-15 15:01:59 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x30aa538 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-3943-1b04s73.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.4ms)
+Completed 200 OK in 120ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.1.2 at 2015-11-15 15:04:33 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x3e7e298 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-3943-13fox1h.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 55ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.1.2 at 2015-11-15 15:06:51 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x2a6c840 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-4393-16of0xt.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (5.4ms)
+Completed 200 OK in 126ms (Views: 99.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 192.168.1.2 at 2015-11-15 15:06:54 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x2fb1628 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-4393-1zfh7a.txt>, @original_filename="tmp1.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"tmp1.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 51ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/numFiles/?num=2" for 192.168.1.2 at 2015-11-15 15:28:39 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [POST] "/numFiles"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:19:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:166:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:140:in `service'
+  /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (18.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (13.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (103.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (173.9ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (581.0ms)
+
+
+Started POST "/numFiles/?num=2" for 192.168.1.2 at 2015-11-15 15:29:18 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#getNumFiles as HTML
+  Parameters: {"numfiles"=>"2", "files"=>["pgm.txt", "tmp1.txt"], "num"=>"2"}
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template home/getNumFiles, application/getNumFiles with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/pi/RailsServer/swiftshareOnRails/app/views"
+  * "/home/pi/.rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views"
+):
+  actionview (4.2.5) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.5) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.5) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.5) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.5) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.5) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.5) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.5) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.5) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:19:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:166:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:140:in `service'
+  /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (124.1ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (54.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (364.3ms)
+
+
+Started POST "/numFiles/?num=2" for 192.168.1.2 at 2015-11-15 15:29:22 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#getNumFiles as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x287f640 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-4393-m0qte4.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">], "num"=>"2"}
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template home/getNumFiles, application/getNumFiles with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/pi/RailsServer/swiftshareOnRails/app/views"
+  * "/home/pi/.rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views"
+):
+  actionview (4.2.5) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.5) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.5) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.5) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.5) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.5) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.5) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.5) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.5) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:19:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:166:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:140:in `service'
+  /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (95.9ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (37.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (13.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (293.7ms)
+
+
+Started POST "/numFiles/?num=2" for 192.168.1.2 at 2015-11-15 15:31:28 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#getNumFiles as HTML
+  Parameters: {"files"=>["pgm.txt", "tmp1.txt"], "num"=>"2"}
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template home/getNumFiles, application/getNumFiles with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/pi/RailsServer/swiftshareOnRails/app/views"
+  * "/home/pi/.rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views"
+):
+  actionview (4.2.5) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.5) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.5) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.5) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.5) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.5) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.5) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.5) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.5) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:19:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:166:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:140:in `service'
+  /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (93.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (37.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (290.9ms)
+
+
+Started POST "/numFiles/?num=2" for 192.168.1.2 at 2015-11-15 15:31:30 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#getNumFiles as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x1253a60 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-4393-1t97vx6.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">], "num"=>"2"}
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template home/getNumFiles, application/getNumFiles with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/pi/RailsServer/swiftshareOnRails/app/views"
+  * "/home/pi/.rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views"
+):
+  actionview (4.2.5) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.5) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.5) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.5) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.5) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.5) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.5) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.5) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.5) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:19:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:166:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:140:in `service'
+  /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (94.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (66.9ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (321.4ms)
+
+
+Started POST "/numFiles" for 192.168.1.2 at 2015-11-15 15:35:21 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#getNumFiles as HTML
+  Parameters: {"files"=>["pgm.txt", "tmp1.txt"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 28ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/numFiles" for 192.168.1.2 at 2015-11-15 15:35:22 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#getNumFiles as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x287e2c0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-4393-1kbu5z3.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">]}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `join' for nil:NilClass):
+  app/controllers/home_controller.rb:16:in `getNumFiles'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (137.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (39.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (17.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (353.1ms)
+
+
+Started POST "/numFiles" for 192.168.1.2 at 2015-11-15 15:41:48 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#getNumFiles as HTML
+  Parameters: {"files"=>["pgm.txt", "tmp1.txt"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/numFiles" for 192.168.1.2 at 2015-11-15 15:41:49 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#getNumFiles as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x2d660f0 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-4393-1lwdmf7.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">]}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `join' for nil:NilClass):
+  app/controllers/home_controller.rb:16:in `getNumFiles'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (102.2ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (39.5ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.0ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (318.1ms)
+
+
+Started POST "/numFiles" for 192.168.1.2 at 2015-11-15 15:48:34 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/pi/RailsServer/swiftshareOnRails/app/controllers/home_controller.rb:15: target of repeat operator is not specified: /*numFiles = params[:num]
+		files = params[:numfiles]
+		puts "Files to be uploaded", numFiles*/):
+  app/controllers/home_controller.rb:15: target of repeat operator is not specified: /*numFiles = params[:num]
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (71.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (39.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (17.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (289.6ms)
+
+
+Started POST "/numFiles" for 192.168.1.2 at 2015-11-15 15:49:08 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#getNumFiles as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+ArgumentError (no data given):
+  app/controllers/home_controller.rb:19:in `digest'
+  app/controllers/home_controller.rb:19:in `hexdigest'
+  app/controllers/home_controller.rb:19:in `getNumFiles'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (78.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (40.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (13.4ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (287.1ms)
+
+
+Started POST "/numFiles" for 192.168.1.2 at 2015-11-15 16:00:28 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#getNumFiles as HTML
+  Parameters: {"files"=>["pgm.txt", "tmp1.txt"]}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `join' for nil:NilClass):
+  app/controllers/home_controller.rb:19:in `getNumFiles'
+
+
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (75.6ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (39.7ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.3ms)
+  Rendered /home/pi/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (282.1ms)
+
+
+Started POST "/numFiles" for 192.168.1.2 at 2015-11-15 16:01:04 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#getNumFiles as HTML
+  Parameters: {"files"=>["pgm.txt", "tmp1.txt"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 25ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:14:31 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["pgm.txt", "tmp1.txt"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 24ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=890568d3a976c6f9acbe0d61fb5deff5" for 192.168.1.2 at 2015-11-15 16:14:31 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x306f588 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-4393-le1gc8.txt>, @original_filename="pgm.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"pgm.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">], "hash"=>"890568d3a976c6f9acbe0d61fb5deff5"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 37ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=890568d3a976c6f9acbe0d61fb5deff5" for 192.168.1.2 at 2015-11-15 16:14:31 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x2ed96b8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-4393-1abx8jz.txt>, @original_filename="tmp1.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"tmp1.txt\"\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: binary\r\n">], "hash"=>"890568d3a976c6f9acbe0d61fb5deff5"}
+  Rendered text template (0.3ms)
+Completed 200 OK in 47ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hash" for 192.168.1.2 at 2015-11-15 16:22:04 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#generateHash as HTML
+  Parameters: {"files"=>["K S R T C_BLR2UDP_10_29_2015.pdf", "K S R T C_UDP2BLR_10_27_2015.pdf", "06_Oct.jpg"]}
+  Rendered text template (0.2ms)
+Completed 200 OK in 25ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=5c6143a5472a20aa66960d8562206b07" for 192.168.1.2 at 2015-11-15 16:22:09 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x28e4bd8 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-4393-2tzfcd.pdf>, @original_filename="K S R T C_BLR2UDP_10_29_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"K S R T C_BLR2UDP_10_29_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">], "hash"=>"5c6143a5472a20aa66960d8562206b07"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 50ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=5c6143a5472a20aa66960d8562206b07" for 192.168.1.2 at 2015-11-15 16:22:14 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x1e90d08 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-4393-r2wmay.pdf>, @original_filename="K S R T C_UDP2BLR_10_27_2015.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"K S R T C_UDP2BLR_10_27_2015.pdf\"\r\nContent-Type: application/pdf\r\nContent-Transfer-Encoding: binary\r\n">], "hash"=>"5c6143a5472a20aa66960d8562206b07"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 51ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload/?hash=5c6143a5472a20aa66960d8562206b07" for 192.168.1.2 at 2015-11-15 16:22:18 +0530
+Cannot render console from 192.168.1.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#upload as HTML
+  Parameters: {"fileUpload"=>[#<ActionDispatch::Http::UploadedFile:0x1b68b68 @tempfile=#<Tempfile:/tmp/RackMultipart20151115-4393-l81dlz.jpg>, @original_filename="06_Oct.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"fileUpload[]\"; filename=\"06_Oct.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Transfer-Encoding: binary\r\n">], "hash"=>"5c6143a5472a20aa66960d8562206b07"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 46ms (Views: 23.8ms | ActiveRecord: 0.0ms)

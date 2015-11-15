@@ -36,3 +36,1100 @@
 	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
 	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
 	from -e:1:in `<main>'
+bin/rails:8:in `require': cannot load such file -- rails/commands (LoadError)
+	from bin/rails:8:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.3/lib/active_support/dependencies.rb:274:in `require': cannot load such file -- rails/commands (LoadError)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.3/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.3/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.3/lib/active_support/dependencies.rb:274:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/rails:8:in `<top (required)>'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.3/lib/active_support/dependencies.rb:268:in `load'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.3/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.3/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.3/lib/active_support/dependencies.rb:268:in `load'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from -e:1:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find rake-10.4.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find rake-10.4.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find activesupport-4.2.3 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find nokogiri-1.6.6.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find nokogiri-1.6.6.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find nokogiri-1.6.6.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find nokogiri-1.6.6.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find nokogiri-1.6.6.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find nokogiri-1.6.6.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find nokogiri-1.6.6.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find nokogiri-1.6.6.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find nokogiri-1.6.6.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find nokogiri-1.6.6.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find nokogiri-1.6.6.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find nokogiri-1.6.6.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find nokogiri-1.6.6.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find mime-types-2.6.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find debug_inspector-0.0.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find execjs-2.6.0 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find paperclip-4.3.1 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find rake-10.4.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find rake-10.4.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find rake-10.4.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find rake-10.4.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find rake-10.4.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find rake-10.4.2 in any of the sources (Bundler::GemNotFound)
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `map!'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/spec_set.rb:85:in `materialize'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/definition.rb:140:in `specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/definition.rb:185:in `specs_for'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/definition.rb:174:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/runtime.rb:13:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler.rb:127:in `setup'
+	from /home/pi/.rvm/gems/ruby-2.2.1@global/gems/bundler-1.10.6/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/.rvm/rubies/ruby-2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/pi/RailsServer/swiftshareOnRails/config/boot.rb:3:in `<top (required)>'
+	from bin/rails:7:in `require_relative'
+	from bin/rails:7:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+/home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read': No such file or directory @ rb_sysopen - /home/pi/RailsServer/swiftshareOnRails/Gemfile.lock (Errno::ENOENT)
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `read'
+	from /home/pi/RailsServer/swiftshareOnRails/bin/spring:10:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
+There is a version mismatch between the spring client and the server.
+You should restart the server and make sure to use the same version.
+
+CLIENT: 1.4.1, SERVER: 1.4.0
